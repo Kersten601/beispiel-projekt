@@ -1,4 +1,4 @@
-package com.example.beispielprojekt.controller;
+package com.example.beispielprojekt.controll;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HelloWorldController {
 
     @GetMapping("/hallo")
     public String helloWorld() {
-        return  "hello Catarina";
+        return  "hello Katarina";
     }
 }
